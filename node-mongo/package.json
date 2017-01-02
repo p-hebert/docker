@@ -1,0 +1,13 @@
+{
+  "name": "node-mongo",
+  "version": "1.0.0",
+  "description": "Docker For Node-Mongo Setups",
+  "main": "server.js",
+  "scripts": {
+    "start": "cd docker && ./docker-start.sh"
+  },
+  "author": "Philippe Hebert (@p-hebert)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

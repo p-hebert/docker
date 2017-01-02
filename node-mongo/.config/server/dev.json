@@ -1,0 +1,12 @@
+{
+  "global": {
+    "port": 8080
+  },
+  "mongodb": {
+    "host": "172.20.0.2",
+    "port": "27017",
+    "user": "mydbuser",
+    "password": "mypassword123",
+    "dbname": "mydb"
+  }
+}

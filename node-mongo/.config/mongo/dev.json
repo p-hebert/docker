@@ -1,0 +1,27 @@
+{
+  "dbname": "mydb",
+  "users": [
+    {
+      "user": "mydbsuper",
+      "pwd": "mypassword123",
+      "roles": [
+        { "role": "dbOwner", "db": "mydb" }
+      ]
+    },
+    {
+      "user": "mydbadmin",
+      "pwd": "mypassword123",
+      "roles": [
+        { "role": "dbAdmin", "db": "mydb" },
+        { "role": "readWrite", "db": "mydb" }
+      ]
+    },
+    {
+      "user": "mydbuser",
+      "pwd": "mypassword123",
+      "roles": [
+        { "role": "readWrite", "db": "mydb" }
+      ]
+    }
+  ]
+}

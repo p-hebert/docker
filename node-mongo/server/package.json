@@ -1,0 +1,18 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "Barebone NodeJS Express Server",
+  "main": "server.js",
+  "author": "Philippe Hebert (@p-hebert)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.14.0",
+    "express-session": "1.14.1",
+    "mongo-sanitize": "1.0.0",
+    "mongodb": "2.2.11",
+    "mongoose": "4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "1.11.0"
+  }
+}
